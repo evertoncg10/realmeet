@@ -18,3 +18,11 @@ spring:
     username: root
     password: root
     type: com.zaxxer.hikari.HikariDataSource
+
+# =================================
+# = Logging
+# =================================
+logging:
+  level:
+    org.springframework: INFO
+    org.flywaydb: INFO
