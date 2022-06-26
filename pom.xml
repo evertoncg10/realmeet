@@ -25,6 +25,7 @@
 	<properties>
 		<openapi-generator-maven-plugin.version>6.0.0</openapi-generator-maven-plugin.version>
 		<swagger-annotations.version>1.6.2</swagger-annotations.version>
+		<jackson-databind-nullable.version>0.2.3</jackson-databind-nullable.version>
 		<openapi-spec.file>${project.basedir}/../service/src/main/resources/api.yml</openapi-spec.file>
 		<openapi-spec.classpath>classpath:api.yml</openapi-spec.classpath>
 		<api.path>br.com.everton.realmeet</api.path>
