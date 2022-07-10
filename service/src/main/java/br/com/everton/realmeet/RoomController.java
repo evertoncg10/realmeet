@@ -15,6 +15,7 @@ public class RoomController implements RoomsApi {
 
     @Override
     public CompletableFuture<ResponseEntity<Room>> listRooms(@Valid Long id) {
+		System.print("");
         return supplyAsync(() -> ResponseEntity.ok(new Room().id(1L).name("Room #1")));
     }
 }
